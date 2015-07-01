@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Jekyll!"
+date:   2015-07-01 
+
+---
+I am in week 6 at The Iron Yard! Halfway to the finish line.
+Time flies when you are learning! 
+
+Today, we started working with Jekyll. From the way Sam talked about it, I was kind of scared of it, but it doesn't seem so bad. 
+
+Now all of my blog posts are out in the world!
