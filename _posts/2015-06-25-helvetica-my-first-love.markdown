@@ -13,7 +13,7 @@ I also realized that it was overused and then I was introduced to Futura.
 
 I loved Futura for a long time. Again, I was attracted by the simplicity. 
 I loved the geometrical shapes and designed my first letterhead with the typeface.
-Time passed and I was introduced to new typefaces and forget about Futura for a while.
+Time passed and I was introduced to new typefaces and forgot about Futura for a while.
 
 Currently, I like Gotham and Adobe Garamond.
 
