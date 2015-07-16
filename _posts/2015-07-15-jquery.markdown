@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "JQuery"
+date:   2015-07-15 
+
+---
+#GoodReads JQuery Practice
+
+##Initial Thoughts
+Javascript is hard. My brain doesn't understand it yet. 
+I know that javascript is capable of doing some cool things, but it is confusing. 
+
+##My Books Modal
+In this codepen I am showing what happens when the user clicks on a book.
+When the user clicks on a book, a modal appears over the book with the book title and author, a button indicating if you have or have not read the book and ratings information. When the user selects the 'want to read!' button the button color goes from green to blue. To close the modal the user double clicks.
+
+<p data-height="268" data-theme-id="0" data-slug-hash="gpKEOK" data-default-tab="result" data-user="carissamelanson" class='codepen'>See the Pen <a href='http://codepen.io/carissamelanson/pen/gpKEOK/'>Goodreads- My Books modal</a> by Carissa Melanson (<a href='http://codepen.io/carissamelanson'>@carissamelanson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+##Settings Dropdown Menu
+In this example when a user hovers over the settings icon, a menu box slides down below it. When items in the menu are selected, the text color changes to blue. When the user double clicks an item, the list item is deselected.
+
+<p data-height="268" data-theme-id="0" data-slug-hash="jPKJjr" data-default-tab="result" data-user="carissamelanson" class='codepen'>See the Pen <a href='http://codepen.io/carissamelanson/pen/jPKJjr/'>Goodreads-Settings dropdown</a> by Carissa Melanson (<a href='http://codepen.io/carissamelanson'>@carissamelanson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+##Buttons
+This example shows the button functions that occur when a user selects the button. When the button is selected, a menu drops down. 
+The user can choose:
+-  WANT TO READ!
+-  CURRENTLY READING!
+-  FINISHED READING!
+
+When an option is selected, the button color changes from green to blue and the button text changes to the text that was selected, the drop down menu hides.
+
+<p data-height="268" data-theme-id="0" data-slug-hash="PqagKP" data-default-tab="result" data-user="carissamelanson" class='codepen'>See the Pen <a href='http://codepen.io/carissamelanson/pen/PqagKP/'>Goodreads- Button Actions</a> by Carissa Melanson (<a href='http://codepen.io/carissamelanson'>@carissamelanson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>

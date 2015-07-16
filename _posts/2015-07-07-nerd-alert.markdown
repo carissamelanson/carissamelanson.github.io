@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nerd Alert!"
+title:  "Nerd Alert"
 date:   2015-07-07
 
 ---
