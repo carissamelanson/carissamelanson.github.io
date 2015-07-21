@@ -1,8 +1,18 @@
 ---
-layout: blog
+layout: default
 ---
+<!-- <ul class="blog-content">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-{% include header.html %}
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul> -->
+
 
 <div class="header-info">
 						
@@ -10,20 +20,17 @@ layout: blog
 					</div>
 					
 				<div class="portfolio-wrapper">
+				
 
-				<div class="blog-post">
-					<h5>July 20, 2015</h5>
-					<h3><a href="blog-post-1">Blog Post</a></h3>
-					<p>Opening sentence then first few sentences of blog post to get them hooked. </p>
+				<div class="blog-post"> 
+				   {% for post in site.posts %}
+					<h5><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></h5>
+					<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+					<p>{{ post.content | strip_html | truncate: 50 }}</p>
+					   {% endfor %}
 				</div>
 
-				<div class="blog-post">
-					<h5>July 20, 2015</h5>
-					<h3><a href="#">Blog Post</a></h3>
-					<p>Opening sentence then first few sentences of blog post to get them hooked. </p>
-				</div>
-
-				<div class="blog-post">
+				<!-- <div class="blog-post">
 					<h5>July 20, 2015</h5>
 					<h3><a href="#">Blog Post</a></h3>
 					<p>Opening sentence then first few sentences of blog post to get them hooked. </p>
@@ -46,8 +53,13 @@ layout: blog
 					<h3><a href="#">Blog Post</a></h3>
 					<p>Opening sentence then first few sentences of blog post to get them hooked. </p>
 				</div>
+
+				<div class="blog-post">
+					<h5>July 20, 2015</h5>
+					<h3><a href="#">Blog Post</a></h3>
+					<p>Opening sentence then first few sentences of blog post to get them hooked. </p>
+				</div> -->
 
 		</div>
 
 
- {% include footer.html %}
