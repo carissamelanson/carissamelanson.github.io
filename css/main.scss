@@ -1,3 +1,7 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
 @import 'reset';
 @import 'responsive-nav';
 
@@ -94,7 +98,7 @@ nav,
 	height: 100px;}
 .logo{
 	float: left;
-	width: 70%;
+	width: 62%;
 	position: relative;
 	box-sizing: border-box;
 	margin-top: 20px;
@@ -190,15 +194,15 @@ section{
 .bluedahlia,
 .ironrides,
 .goodreads{
-	margin-right: 30px;
-	margin-left: 30px;
+	margin-right: 34px;
+	margin-left: 34px;
 	margin-bottom: 80px;
 	margin-top: 20px;
 	position: relative;
 }
 
 .project-image{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 40px;
 	
@@ -210,7 +214,7 @@ section{
 }
 
 .project-image-ironrides{ 
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	border: 1px solid #c9c9c9;
 	margin-bottom: 40px;
@@ -239,6 +243,16 @@ section{
 
 .blog-post h3 a:hover{ color: $turquoise;}
 
+.rss-subscribe{
+	clear: left;
+	float: left;
+}
+
+/*BLOG POST PAGE*/
+.post{
+	padding: 10%;
+}
+
 /*FOOTER*/
 
 footer{
@@ -264,7 +278,8 @@ footer{
 	}
 
 .site-info{
-	float: right;
+	float: left;
+
 
 }
 .site-info p{
