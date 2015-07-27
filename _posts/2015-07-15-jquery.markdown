@@ -4,33 +4,49 @@ title:  "JQuery"
 date:   2015-07-15 
 
 ---
-###GoodReads JQuery Practice
+<br/>
+
 
 ###Initial Thoughts
 Javascript is hard. My brain doesn't understand it yet. 
-I know that javascript is capable of doing some cool things, but it is confusing. 
+I know that javascript is capable of doing some cool things, but it is confusing.  
+<br/>
 
 ###My Books Modal
 In this codepen I am showing what happens when the user clicks on a book.
-When the user clicks on a book, a modal appears over the book with the book title and author, a button indicating if you have or have not read the book and ratings information. When the user selects the 'want to read!' button the button color goes from green to blue. To close the modal the user double clicks.
-
+When the user clicks on a book, a modal appears over the book with the book title and author, a button indicating if you have or have not read the book and ratings information. When the user selects the 'want to read!' button the button color goes from green to blue. To close the modal the user double clicks.  
+<br/>
 <p data-height="268" data-theme-id="0" data-slug-hash="gpKEOK" data-default-tab="result" data-user="carissamelanson" class='codepen'>See the Pen <a href='http://codepen.io/carissamelanson/pen/gpKEOK/'>Goodreads- My Books modal</a> by Carissa Melanson (<a href='http://codepen.io/carissamelanson'>@carissamelanson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-###Settings Drop down Menu
-In this example when a user hovers over the settings icon, a menu box slides down below it. When items in the menu are selected, the text color changes to blue. When the user double clicks an item, the list item is deselected.
+<br/>
+<br/>
+<br/>
+<br/>
 
+###Settings Drop down Menu
+In this example when a user hovers over the settings icon, a menu box slides down below it. When items in the menu are selected, the text color changes to blue. When the user double clicks an item, the list item is deselected.  
+
+<br/>
 <p data-height="268" data-theme-id="0" data-slug-hash="jPKJjr" data-default-tab="result" data-user="carissamelanson" class='codepen'>See the Pen <a href='http://codepen.io/carissamelanson/pen/jPKJjr/'>Goodreads-Settings dropdown</a> by Carissa Melanson (<a href='http://codepen.io/carissamelanson'>@carissamelanson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>  
+
+<br/>
+<br/>
+<br/>
+<br/>
+
 
 ###Buttons
 This example shows the button functions that occur when a user selects the button. When the button is selected, a menu drops down. 
-The user can choose:
--  WANT TO READ!
--  CURRENTLY READING!
--  FINISHED READING!
+The user can choose:  
+    - Want to Read  
+    - Currently Reading    
+    - Finished Reading   
+<br/>
 
-When an option is selected, the button color changes from green to blue and the button text changes to the text that was selected, the drop down menu hides.
+When an option is selected, the button color changes from green to blue and the button text changes to the text that was selected, the drop down menu hides.  
+<br/>
 
 <p data-height="268" data-theme-id="0" data-slug-hash="PqagKP" data-default-tab="result" data-user="carissamelanson" class='codepen'>See the Pen <a href='http://codepen.io/carissamelanson/pen/PqagKP/'>Goodreads- Button Actions</a> by Carissa Melanson (<a href='http://codepen.io/carissamelanson'>@carissamelanson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

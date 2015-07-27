@@ -4,9 +4,12 @@ title:  "Jekyll!"
 date:   2015-07-01 
 
 ---
+<br/>
 I am in week 6 at The Iron Yard! Halfway to the finish line.
-Time flies when you are learning! 
+Time flies when you are learning!  
+<br/>
 
-Today, we started working with Jekyll. From the way Sam talked about it, I was kind of scared of it, but it doesn't seem so bad. 
+Today, we started working with Jekyll. From the way Sam talked about it, I was kind of scared of it, but it doesn't seem so bad.  
+<br/>
 
 Now all of my blog posts are out in the world!
