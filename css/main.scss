@@ -70,7 +70,7 @@ a, a:hover{color: $turquoise;}
 nav,
 .nav-toggle,{
 	font-family: $museo;
-	font-size: 1em;
+	font-size: 0.875em;
 	font-weight: 300;
 	color: $grey;
 	margin-top: 20px;
@@ -146,13 +146,15 @@ nav,
     width: 100%;
     margin: 0 auto;
 
+
 }
 /*PORTFOLIO*/
 .snippet{
 	float: left;
 	width: 90%;
-	height: 300px;	
-	
+	height: 300px;
+	position: absolute;	
+
 }
 
 .goodreads{
@@ -163,6 +165,7 @@ nav,
 .zengarden{
 	background: url(../images/zengarden.jpg);
 	background-size: cover;
+
 }
 .ironrides{
 	background: url(../images/ironrides.jpg);
