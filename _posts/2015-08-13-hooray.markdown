@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Hooray!"
+date:   2015-08-13
+
+---
+<br/>
+Hooray! Final projects are complete and we are graduating! The last 12 weeks have been intense and I have learned so much. In addition to all the new skills that I have learned, I also refined some. For example, I refined my design process and my public speaking skills. I even won the class contest for performing the best during daily stand ups.
+<br>
+I remember HTML and CSS being foreign and confusing during week 1, while I'm not an expert I am much better at it and I even enjoy it!
+<br>
+I'm ready to put all these skills to work and most importantly, to keep growing and learning.
+
