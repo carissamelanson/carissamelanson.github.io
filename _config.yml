@@ -4,7 +4,7 @@ email: carissa.leos@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Carissa tries to explain it all. Daily thoughts and projects.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://carissamelanson.com" # the base hostname & protocol for your site
 twitter_username: carissamelanson
 github_username:  carissamelanson
 
