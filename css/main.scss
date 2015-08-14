@@ -215,7 +215,7 @@ nav,
 .bluedahlia,
 .ironrides,
 .goodreads{
-	margin-left: 5%;
+	// margin-left: 5%;
 	margin-bottom: 60px;
 	// margin-top: 20px;
 	position: relative;
@@ -299,6 +299,7 @@ footer{
 	float: left;
  	margin-bottom: 10px;
  	margin-right: 20px;
+ 	width: 30px;
 
  	a{
  		margin-right: 30px;
@@ -327,9 +328,17 @@ footer{
 
 .snippet{
 	float: left;
-	width: 42%;
+	width: 45%;
 
 }
+.lookup,
+.zengarden,
+.bluedahlia,
+.ironrides,
+.goodreads{
+	margin-left: 4%;
+}
+
 .blog-post {
 	padding: 2%;
 	margin-top: 20px;
