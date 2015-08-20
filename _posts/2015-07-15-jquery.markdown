@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JQuery"
+title:  "jQuery"
 date:   2015-07-15 
 
 ---
@@ -8,7 +8,7 @@ date:   2015-07-15
 
 
 ###Initial Thoughts
-Javascript is hard. My brain doesn't understand it yet. 
+jQuery is hard. My brain doesn't understand it yet. 
 I know that javascript is capable of doing some cool things, but it is confusing.  
 <br/>
 

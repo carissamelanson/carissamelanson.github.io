@@ -12,7 +12,7 @@ title: Carissa explains it all.
 				  
 					<h5><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></h5>
 					<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-					<p>{{ post.content | strip_html | truncate: 50 }}</p>
+					<p>{{ post.content | strip_html | truncate: 100 }}</p>
 					  
 				</div>
  {% endfor %}

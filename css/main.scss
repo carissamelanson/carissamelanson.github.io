@@ -57,6 +57,12 @@ h5{
 	font-size: 1em;
 }
 
+h6 {
+	font-family: $museo;
+	color: $royal-blue;
+	font-size: 1em;
+}
+
 
 p{
 	font-family: $mslab;
@@ -117,7 +123,7 @@ nav,
 
 }
 .logo h4{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	color: $grey;
 }
 
@@ -143,7 +149,7 @@ nav,
 
 
 	a{text-decoration: none;}
-	
+	a:hover{color: $dkblue;}
 }
 
 .page-wrapper{
@@ -154,6 +160,17 @@ nav,
 
 }
 /*PORTFOLIO*/
+
+.btn{
+	width: 120px;
+	border: 2px solid #0099ff;
+	height: 20px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 80px;
+
+}
+
 .snippet{
 	float: left;
 	width: 100%;
@@ -170,21 +187,21 @@ nav,
 .goodreads{
 	background: url(../images/goodreads.png);
 	background-size: cover;
-	border: 1px solid #c9c9c9;
+	// border: 1px solid #c9c9c9;
 }
 .zengarden{
 	background: url(../images/zengarden.jpg);
 	background-size: cover;
 
 }
-.ironrides{
-	background: url(../images/ironrides.jpg);
-	background-size: cover;
-	border: 1px solid #c9c9c9;
-}
+// .ironrides{
+// 	background: url(../images/ironrides.jpg);
+// 	background-size: cover;
+// 	border: 1px solid #c9c9c9;
+// }
 
 .bluedahlia{
-	background: url(../images/bluedahlia.jpg);
+	background: url(../images/Blue-Dahlia.jpg);
 	background-size: cover;
 }
 .transition{
@@ -264,6 +281,11 @@ nav,
 	h3 a{color: $dkblue;}
 }
 
+.blog-post h3{
+	font-size: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 .blog-post h3 a:hover{ color: $royal-blue;}
 
 .rss-subscribe{
@@ -346,8 +368,13 @@ footer{
 	margin-bottom: 20px;
 	margin-right: 2%;
 	margin-left: 2%;
-	height: 100px;
+	height: 160px;
 
+}
+
+.project-info p{
+	margin-bottom: 40px;
+	width: 80%;
 }
 
 }
