@@ -142,7 +142,7 @@ nav,
 }
 
 .page-content{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 
@@ -216,7 +216,9 @@ nav,
 	   h3{
 	   	text-align: center;
 	   	margin-top: 20px;
-	   	color: #fff;}
+	   	color: #fff;
+	   	padding: 10px;
+	   }
 }
 
 .zengarden:hover .transition,
@@ -244,11 +246,14 @@ nav,
 	margin: 0 auto;
 	margin-bottom: 40px;
 	
-
+}
+.project-info{
+	padding: 20px;
 }
 .project-info p{
 	margin-bottom: 40px;
 	width: 100%;
+	
 }
 
 .project-image-ironrides{ 
@@ -264,7 +269,12 @@ nav,
 .profile{
 	width: 40%;
 	float: left;
-	margin-right: 50px;}
+	margin-right: 20px;
+margin-bottom: 20px;}
+
+.about-box{
+	padding: 20px;
+}
 
 
 /*BLOG*/
@@ -340,6 +350,7 @@ footer{
 
 /* MEDIUM MEDIA QUERY */
 @media screen and(min-width: 800px){
+
 	.wrap{height: 400px;}
 	.header-info{
 		padding-top: 100px;
@@ -347,6 +358,10 @@ footer{
 	
 	}
 	h1{font-size: 4em;}
+
+	.page-content{
+	width: 90%;
+	}
 
 .snippet{
 	float: left;
