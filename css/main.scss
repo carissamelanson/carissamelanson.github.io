@@ -7,8 +7,10 @@
 
 
 /*FONTS*/
-$mslab:"museo-slab",sans-serif;
-$museo:"museo-sans", serif;
+// $mslab:"museo-slab",sans-serif;
+// $museo:"museo-sans", serif;
+$proxima: "proxima-nova",sans-serif;
+
 
 /*COLOR*/
 $royal-blue: #0099ff;
@@ -21,7 +23,7 @@ $grey: #666666;
 /*TYPOGRAPHY*/
 
 h1{
-  font-family: $museo;
+  font-family: $proxima;
   font-weight: 700;
   font-size: 3em;
   color: $royal-blue;
@@ -29,7 +31,7 @@ h1{
   }
 
 h2{
-	font-family: $museo;
+	font-family: $proxima;
 	font-size: 2.8em;
 	line-height: 1.2;
 	color: $dkblue;
@@ -38,44 +40,45 @@ h2{
 }
 
 h3{
-	font-family: $museo;
+	font-family: $proxima;
 	font-size: 1.125em;
 	color: $dkblue;
 	font-weight: 700;
 	line-height: 1.6em;
 }
 h4{
-	font-family: $museo;
+	font-family: $proxima;
 	font-size: 1em;
 	color: $ltblue;
 	font-weight: 300;	
 }
 
 h5{
-	font-family: $museo;
+	font-family: $proxima;
 	color: $dkblue;
 	font-size: 1em;
 }
 
 h6 {
-	font-family: $museo;
+	font-family: $proxima;
 	color: $royal-blue;
 	font-size: 1em;
 }
 
 
 p{
-	font-family: $mslab;
+	font-family: $proxima;
 	font-size: 1.125em;
 	line-height: 1.8;
 	color: $grey;
+	font-weight: 300;
 }
 
 a, a:hover{color: $royal-blue;}
 
 nav,
 .nav-toggle,{
-	font-family: $museo;
+	font-family: $proxima;
 	font-size: 0.875em;
 	font-weight: 300;
 	color: $grey;
@@ -343,9 +346,10 @@ footer{
 
 }
 .site-info p{
-	font-family: $museo;
+	font-family: $proxima;
 	font-size: 1em;
 	color: $grey;
+	font-weight: 300;
 }
 
 /* MEDIUM MEDIA QUERY */
