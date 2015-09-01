@@ -2,28 +2,21 @@
 layout: default
 title: Carissa explains it all.
 ---
-					
-				<div class="page-content">
 
-				
- {% for post in site.posts %}
-
-				<div class="blog-post"> 
-				  
-					<h5><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></h5>
-					<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-					<p>{{ post.content | strip_html | truncate: 100 }}</p>
-					  
-				</div>
- {% endfor %}
-				<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-				
-
+<div class="page-content">
+	
+	{% for post in site.posts %}
+		<div class="blog-post">
+			
+			<h5><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></h5>
+			<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+			<p>{{ post.content | strip_html | truncate: 100 }}</p>
+			
 		</div>
-
-		<script>
-    var nav = responsiveNav(".nav-collapse");
-    </script>
-
-
+	{% endfor %}
+	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	
+</div>
+<script>
+var nav = responsiveNav(".nav-collapse");
+</script>

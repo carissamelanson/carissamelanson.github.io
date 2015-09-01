@@ -7,8 +7,6 @@
 
 
 /*FONTS*/
-// $mslab:"museo-slab",sans-serif;
-// $museo:"museo-sans", serif;
 $proxima: "proxima-nova",sans-serif;
 
 
@@ -135,14 +133,8 @@ nav,
 	margin: 0 auto;
 	clear: left;
 	text-align: center;
-	// padding-top: 80px;
 
-	h1{
-		margin-top: 110px;
-		// margin-bottom: 110px;
-
-		// margin-top: 140px;
-	}
+	h1{margin-top: 110px;}
 
 }
 
@@ -150,8 +142,6 @@ nav,
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-
-
 
 	a{text-decoration: none;}
 	a:hover{color: $dkblue;}
@@ -161,8 +151,6 @@ nav,
 	max-width: 1500px;
     width: 100%;
     margin: 0 auto;
-
-
 }
 /*PORTFOLIO*/
 
@@ -173,7 +161,6 @@ nav,
 	padding: 10px;
 	text-align: center;
 	margin-bottom: 80px;
-
 }
 
 .snippet{
@@ -181,7 +168,6 @@ nav,
 	width: 100%;
 	height: 300px;
 	// position: fixed;	
-
 }
 
 .lookup{
@@ -292,7 +278,6 @@ nav,
 	float: left;
 	margin-bottom: 10px;
 
-
 	h3 a{color: $dkblue;}
 }
 
@@ -313,9 +298,7 @@ nav,
 	padding-top: 50px;
 }
 
-.post-meta p{
-	margin-bottom: 20px;
-}
+.post-meta p{margin-bottom: 20px;}
 /*FOOTER*/
 
 footer{
@@ -343,10 +326,8 @@ footer{
  		color: #fff;}
 	}
 
-.site-info{
-	float: right;
+.site-info{float: right;}
 
-}
 .site-info p{
 	font-family: $proxima;
 	font-size: 1em;
@@ -368,15 +349,13 @@ footer{
 		line-height: 1.2;
 	}
 
-	.page-content{
-	width: 90%;
-	}
+	.page-content{width: 90%;}
 
 .snippet{
 	float: left;
 	width: 45%;
-
 }
+
 .lookup,
 .zengarden,
 .bluedahlia,
@@ -411,8 +390,5 @@ footer{
 	width: 80%;
 	margin: 0 auto;
 	overflow: hidden;
-
 }
-	
-
 }
