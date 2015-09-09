@@ -71,6 +71,15 @@ p{
 	color: $grey;
 	font-weight: 300;
 }
+.previous, .page_number, .next{
+	font-family: $proxima;
+	font-size: 1em;
+	line-height: 1.2;
+	color: $grey;
+	font-weight: 300;
+}
+
+.next{color: $royal-blue;}
 
 a, a:hover{color: $royal-blue;}
 
@@ -297,6 +306,7 @@ nav,
 	padding: 15%;
 	padding-top: 50px;
 }
+
 
 .post-meta p{margin-bottom: 20px;}
 /*FOOTER*/
