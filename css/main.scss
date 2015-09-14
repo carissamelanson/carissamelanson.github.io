@@ -204,6 +204,11 @@ nav,
 	background: url(../images/bluedahlia.png);
 	background-size: cover;
 }
+
+.d1{
+	background: url(../images/d1.png);
+	background-size: cover;
+}
 .transition{
 	display: block;
 	width: 100%;
@@ -225,7 +230,8 @@ nav,
 .ironrides:hover .transition,
 .bluedahlia:hover .transition,
 .goodreads:hover .transition,
-.lookup:hover .transition{
+.lookup:hover .transition,
+.d1:hover .transition{
 	opacity: .9;
 }
 
@@ -233,7 +239,8 @@ nav,
 .zengarden,
 .bluedahlia,
 .ironrides,
-.goodreads{
+.goodreads,
+.d1{
 	// margin-left: 5%;
 	margin-bottom: 60px;
 	// margin-top: 20px;
@@ -370,7 +377,8 @@ footer{
 .zengarden,
 .bluedahlia,
 .ironrides,
-.goodreads{
+.goodreads,
+.d1{
 	margin-left: 4%;
 }
 
