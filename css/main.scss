@@ -102,7 +102,7 @@ nav,
 	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 20px;
-	height: 200px;
+	// height: 200px;
 	background: #fff;
 }
 .header-wrap{
@@ -226,12 +226,12 @@ nav,
 	   }
 }
 
-.zengarden:hover .transition,
-.ironrides:hover .transition,
-.bluedahlia:hover .transition,
-.goodreads:hover .transition,
-.lookup:hover .transition,
-.d1:hover .transition{
+.zengarden:focus .transition,  
+.ironrides:focus .transition,
+.bluedahlia:focus .transition,
+.goodreads:focus .transition,
+.lookup:focus .transition,
+.d1:focus .transition{
 	opacity: .9;
 }
 
@@ -369,9 +369,19 @@ footer{
 
 	.page-content{width: 90%;}
 
+
 .snippet{
 	float: left;
 	width: 45%;
+}
+
+.zengarden:hover .transition,  
+.ironrides:hover .transition,
+.bluedahlia:hover .transition,
+.goodreads:hover .transition,
+.lookup:hover .transition,
+.d1:hover .transition{
+	opacity: .9;
 }
 
 .lookup,
