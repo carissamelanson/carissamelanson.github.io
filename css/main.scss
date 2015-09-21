@@ -226,13 +226,14 @@ nav,
 	   }
 }
 
-.zengarden:focus .transition,  
-.ironrides:focus .transition,
-.bluedahlia:focus .transition,
-.goodreads:focus .transition,
-.lookup:focus .transition,
-.d1:focus .transition{
+.zengarden:hover .transition,  
+.ironrides:hover .transition,
+.bluedahlia:hover .transition,
+.goodreads:hover .transition,
+.lookup:hover .transition,
+.d1:hover .transition{
 	opacity: .9;
+	transition: .25s;
 }
 
 .lookup,
