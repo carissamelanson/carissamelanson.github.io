@@ -19,7 +19,7 @@ After we figured out who the app's target audience was, I explored colors, typog
 Once we figured out the content and copy for each page, I created pixel perfect mockups. One of my team mates introduced me to Marvel and we used Marvel to prototype our app. 
 
 <br>
-Overall it was a good weekend of learning new things, meeting and working with new people and doing design!
+Overall it was a good weekend of learning new things, meeting new people, collaborating with developers and doing design!
 
 
 
