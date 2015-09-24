@@ -71,6 +71,17 @@ p{
 	color: $grey;
 	font-weight: 300;
 }
+
+span{
+	font-family: $proxima;
+	font-size: 0.875em;
+	line-height: 1.4;
+	color: $grey;
+	font-weight: 300;
+	font-style: italic;
+	
+}
+
 .previous, .page_number, .next{
 	font-family: $proxima;
 	font-size: 1em;
