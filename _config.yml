@@ -2,7 +2,7 @@
 title: Carissa Melanson
 email: carissa.leos@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Carissa tries to explain it all. Daily thoughts and projects.
+ Design portfolio and blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://carissamelanson.com" # the base hostname & protocol for your site
 twitter_username: carissamelanson

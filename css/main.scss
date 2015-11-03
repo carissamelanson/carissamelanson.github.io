@@ -186,39 +186,41 @@ nav,
 .snippet{
 	float: left;
 	width: 100%;
-	height: 250px;	
+	height: 250px;
+	// width: 250px;
+
 }
 
 .lookup{
-	background: url(../images/look-up-snippet.png);
+	background: url(../images/look-up-snippet.png)no-repeat center;
 	background-size: cover;
 }
 
 .goodreads{
-	background: url(../images/goodreads.png);
+	background: url(../images/goodreads.png)no-repeat center;
 	background-size: cover;
 }
 .zengarden{
-	background: url(../images/zengarden.jpg);
+	background: url(../images/zengarden.jpg)no-repeat center;
 	background-size: cover;
 
 }
 
 
 .bluedahlia{
-	background: url(../images/bluedahlia.png);
+	background: url(../images/bluedahlia.png)no-repeat center;
 	background-size: cover;
 }
 
 .d1{
-	background: url(../images/d1.png);
+	background: url(../images/d1.png)no-repeat center;
 	background-size: cover;
 }
 
-.gold{
-	background: url(../images/bouchard-gold.png);
-	background-size: cover;
-}
+// .gold{
+// 	background: url(../images/bouchard-gold.png);
+// 	background-size: cover;
+// }
 .transition{
 	display: block;
 	width: 100%;
