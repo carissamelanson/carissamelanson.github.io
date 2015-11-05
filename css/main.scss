@@ -39,10 +39,10 @@ h2{
 
 h3{
 	font-family: $proxima;
-	font-size: 1.125em;
+	font-size: 1.4em;
 	color: $dkblue;
 	font-weight: 400;
-	line-height: 1.6em;
+	line-height: 1.4em;
 }
 h4{
 	font-family: $proxima;
@@ -53,7 +53,7 @@ h4{
 
 h5{
 	font-family: $proxima;
-	color: $dkblue;
+	color: $grey;
 	font-size: 1em;
 }
 
@@ -90,7 +90,7 @@ p{
 	font-weight: 300;
 }
 
-.next{color: $royal-blue;}
+.next, .previous{color: $royal-blue;}
 
 a, a:hover{color: $royal-blue;}
 
@@ -127,15 +127,16 @@ nav,
 .logo{
 	float: left;
 	width: 40%;
-	position: relative;
-	box-sizing: border-box;
+	// position: relative;
+	// box-sizing: border-box;
 	margin-top: 20px;
 	margin-left: 20px;
 
 }
 
 .logo h3{
-	line-height: 1.6;
+	line-height: 1.2;
+	margin-bottom: 5px;
 	a{ 
 		text-decoration: none;
 		color: $royal-blue;
@@ -246,10 +247,11 @@ background-color: $royal-blue;
 	background-size: cover;
 }
 
-// .gold{
-// 	background: url(../images/bouchard-gold.png);
-// 	background-size: cover;
-// }
+.gold{
+	background: url(../images/bouchard-gold.png)no-repeat center;
+	background-size: cover;
+}
+
 .transition{
 	display: block;
 	width: 100%;
@@ -317,13 +319,13 @@ background-color: $royal-blue;
 
 .blog-post {
 	padding: 5%;
-	background: $ltblue;
+	// background: $ltblue;
 	margin-top: 10px;
 	width: 90%;
 	float: left;
 	margin-bottom: 10px;
 
-	h3 a{color: $dkblue;}
+	h3 a{color: $royal-blue;}
 }
 
 .blog-post h3{
@@ -331,7 +333,7 @@ background-color: $royal-blue;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-.blog-post h3 a:hover{ color: $royal-blue;}
+.blog-post h3 a:hover{ color: $dkblue;}
 
 .rss-subscribe{
 	clear: left;
