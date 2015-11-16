@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "SassConf 2015"
+date:   2015-11-16
+
+---
+<br> 
+
+I was fortunate to be able to volunteer at SassConf 2015. I'm relatively
+new to Sass and wasn't really sure what to expect at the conference, but 
+I'm so glad I was able to volunteer and attend! Everyone was really 
+friendly and passionate about their work. It was awesome and inspiring
+to be surrounded by talented designers and developers who are using technology for positive change. I hope to attend the conference next year!
+
+<br>
+![SassConf 2015](/images/sassconf.JPG)
