@@ -55,6 +55,7 @@ h5{
 	font-family: $proxima;
 	color: $grey;
 	font-size: 1em;
+	font-weight: 300;
 }
 
 h6 {
@@ -177,7 +178,7 @@ nav,
 /*HERO*/
 .hero {  
 background-color: $royal-blue;
-  // background: url(../images/hero_image.jpg);
+  // background: url(../images/hero_image.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,6 +214,7 @@ background-color: $royal-blue;
 	height: 20px;
 	padding: 10px;
 	text-align: center;
+	margin: 0 auto;
 	margin-bottom: 80px;
 }
 
@@ -297,10 +299,12 @@ background-color: $royal-blue;
 }
 .project-info{
 	padding: 20px;
+	text-align: center;
 }
 .project-info p{
 	margin-bottom: 40px;
 	width: 100%;
+	// text-align: center;
 	
 }
 
@@ -446,7 +450,8 @@ footer{
 
 .project-info p{
 	margin-bottom: 40px;
-	width: 80%;
+	width: 100%;
+	
 }
 
 .profile{margin-right: 40px;}
