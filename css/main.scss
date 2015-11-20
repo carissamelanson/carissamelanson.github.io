@@ -165,7 +165,7 @@ nav,
 	margin: 0 auto;
 	overflow: hidden;
 
-	a{text-decoration: none;}
+	// a{text-decoration: none;}
 	a:hover{color: $dkblue;}
 }
 
@@ -216,6 +216,8 @@ background-color: $royal-blue;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 80px;
+
+	a{text-decoration: none;}
 }
 
 .snippet{
@@ -304,7 +306,7 @@ background-color: $royal-blue;
 .project-info p{
 	margin-bottom: 40px;
 	width: 100%;
-	// text-align: center;
+
 	
 }
 
@@ -383,7 +385,7 @@ footer{
 
 .site-info p{
 	font-family: $proxima;
-	font-size: 1em;
+	font-size: 0.875em;
 	color: $grey;
 	font-weight: 300;
 }
@@ -449,8 +451,10 @@ footer{
 }
 
 .project-info p{
-	margin-bottom: 40px;
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+
 	
 }
 
