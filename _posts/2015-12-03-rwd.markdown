@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "RWD"
+date:   2015-12-02
+
+---
+
+<br> 
+
+###Responsive Web Design
+A couple of months ago The Iron Yard hosted a really interesting Q&A with Ethan Marcotte. One thing that he said that has stuck with me was, "Take a more device agnostic approach." It's all about changing our approach and our process, instead of designing a page, design sets of small modules that are flexible and can be adapted and reused for any device and layout. Fascinating stuff, looking forward to reading his latest book on design patterns and principles.
+
