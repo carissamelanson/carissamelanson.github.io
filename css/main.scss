@@ -361,6 +361,9 @@ nav,
 	padding: 15%;
 	padding-top: 50px;
 }
+.post img{
+	width: 100%;
+}
 
 .post-title{
 	text-align: center;
@@ -368,7 +371,11 @@ nav,
 	margin-bottom: 50px;
 }
 
-.post-meta p{margin-bottom: 20px;}
+.post-meta p{
+	margin-bottom: 20px;
+}
+
+
 /*FOOTER*/
 
 footer{
@@ -475,6 +482,12 @@ footer{
 }
 
 .profile{margin-right: 40px;}
+
+.post img{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
 
 }
 
