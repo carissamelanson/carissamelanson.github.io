@@ -7,7 +7,8 @@
 
 
 /*FONTS*/
-$proxima: "proxima-nova",sans-serif;
+// $proxima: "proxima-nova",sans-serif;
+$replacement: "Lato", sans-serif;
 
 
 /*COLOR*/
@@ -21,7 +22,7 @@ $grey: #666666;
 /*TYPOGRAPHY*/
 
 h1{
-  font-family: $proxima;
+  font-family: $replacement;
   font-weight: 400;
   font-size: 2.6em;
   color: $royal-blue;
@@ -29,7 +30,7 @@ h1{
   }
 
 h2{
-	font-family: $proxima;
+	font-family: $replacement;
 	font-size: 2.8em;
 	line-height: 1.2;
 	color: $dkblue;
@@ -38,35 +39,35 @@ h2{
 }
 
 h3{
-	font-family: $proxima;
+	font-family: $replacement;
 	font-size: 1.4em;
 	color: $dkblue;
 	font-weight: 400;
 	line-height: 1.4em;
 }
 h4{
-	font-family: $proxima;
+	font-family: $replacement;
 	font-size: 1em;
 	color: $ltblue;
 	font-weight: 300;	
 }
 
 h5{
-	font-family: $proxima;
+	font-family: $replacement;
 	color: $grey;
 	font-size: 1em;
 	font-weight: 300;
 }
 
 h6 {
-	font-family: $proxima;
+	font-family: $replacement;
 	color: $royal-blue;
 	font-size: 1em;
 }
 
 
 p{
-	font-family: $proxima;
+	font-family: $replacement;
 	font-size: 1.125em;
 	line-height: 1.8;
 	color: $grey;
@@ -74,7 +75,7 @@ p{
 }
 
 .photo-caption{
-	font-family: $proxima;
+	font-family: $replacement;
 	font-size: 0.875em;
 	line-height: 1.4;
 	color: $grey;
@@ -84,7 +85,7 @@ p{
 }
 
 .previous, .page_number, .next{
-	font-family: $proxima;
+	font-family: $replacement;
 	font-size: 1em;
 	line-height: 1.2;
 	color: $grey;
@@ -97,7 +98,7 @@ a, a:hover{color: $royal-blue;}
 
 nav,
 .nav-toggle,{
-	font-family: $proxima;
+	font-family: $replacement;
 	font-size: 0.875em;
 	font-weight: 300;
 	color: $grey;
@@ -282,6 +283,14 @@ background-color: $royal-blue;
 	   	color: #fff;
 	   	padding: 10px;
 	   }
+
+	   p{
+	   	text-align: center;
+	   	margin-top: 20px;
+	   	color: #fff;
+	   	padding: 10px;
+	   	font-style: italic;
+	   }
 }
 
 .zengarden:hover .transition,  
@@ -407,10 +416,11 @@ footer{
 .site-info{float: right;}
 
 .site-info p{
-	font-family: $proxima;
+	font-family: $replacement;
 	font-size: 0.875em;
 	color: $grey;
 	font-weight: 300;
+	line-height: 1.4;
 }
 
 /* MEDIUM MEDIA QUERY */
