@@ -180,7 +180,7 @@ nav,
 
 /*HERO*/
 .hero {  
-background-color: $royal-blue;
+// background-color: $royal-blue;
   // background: url(../images/hero_image.jpg);
   background-position: top;
   background-repeat: no-repeat;
@@ -202,12 +202,12 @@ background-color: $royal-blue;
 
       
       h1 {
-        color: #fff;
+        color: $royal-blue;
         font-size: 2.2em;
         font-weight: 400;
         line-height: 1.2;
     }
-    h3{color: #fff;
+    h3{color: $royal-blue;
     	font-weight: 300;}
 
   }
@@ -434,7 +434,7 @@ footer{
 	.page-content{width: 90%;}
 
 	.hero {  
-		background-color: $royal-blue;
+		// background-color: $royal-blue;
 	// background: url(../images/hero_image.jpg);
 	  	background-position: top;
 	  	background-repeat: fixed;
@@ -451,7 +451,7 @@ footer{
       text-align: center;
       
       h1 {
-        color: #fff;
+        // color: #fff;
         font-size: 2.6em;
     }
   }
@@ -517,7 +517,7 @@ footer{
       text-align: center;
       
       h1 {
-        color: #fff;
+        // color: #fff;
         font-size: 3.2em;
         line-height: 1.6;
     }
